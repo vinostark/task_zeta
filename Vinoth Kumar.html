@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Spotted Hanky</title>
+
+
+    <style>
+        /* Common CSS */
+        body {
+            margin: 0px;
+            background: #ffffff;
+        }
+        body{
+        background-color: white;
+        }
+
+        .header_area{
+        margin: 0px;
+        background-color: #e9f6fc;
+        }
+
+        .header_top th{
+        width: 50%;
+        font-family: Arial;
+        font-size: 9px;
+        font-weight: 500;
+        text-align: left;
+        padding: 14px;
+        }
+
+        .header_top th span{
+        color: #2d86ac;
+        font-weight: 800;
+        }
+
+        .header_top_right{
+        font-family: Arial;
+        font-size: 8px;
+        color: #3d3d3d;
+        }
+
+        .header_top_right th{
+        padding: 10px 4px !important;
+        }
+
+        .container {
+            width: 960px;
+            margin: 0 auto;
+        }
+
+
+        /* Header CSS */
+
+        .inner_header {
+            background: #ffffff;
+            border-top: 5px solid #81b300;
+            clear: both;
+            padding: 0 30px;
+            overflow: hidden;
+        }
+
+        .logo_area {
+            width: 300px;
+            float: left;
+            padding: 25px 0;
+        }
+
+        .header_right_area {
+            width: 590px;
+            float: right;
+        }
+
+        .social_icon {
+            background: #81b300;
+            width: auto;
+            float: right;
+            padding: 12px 17px;
+            border-radius: 0px 0px 15px 15px;
+        }
+
+        .social_icon ul {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            text-align: right;
+        }
+
+        .social_icon ul li {
+            display: inline-block;
+            margin: 0 3px;
+        }
+
+        .social_icon ul li a {
+            background: #1f1f1f;
+            width: 35px;
+            padding-top: 8px;
+            color: white;
+            display: block;
+            font-size: 15px;
+            text-align: center;
+            height: 25px;
+            border-radius: 25px;
+        }
+
+        .right_menu {
+            width: 100%;
+            float: right;
+            text-align: right;
+            margin: 10px 0px;
+        }
+
+        .right_menu ul {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            text-align: right;
+        }
+
+        .right_menu ul li {
+            display: inline-block;
+            margin: 0 8px;
+        }
+
+        .right_menu ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 14px;
+            font-family: Georgia;
+            font-weight: normal;
+        }
+
+        .nav_bar {
+            height: 45px;
+        }
+
+        /* Checkmark*/
+        
+        .checkmark {
+            display: inline-block;
+            transform: rotate(45deg);
+            height: 14px;
+            width: 7px;
+            border-bottom: 3px solid #000000;
+            border-right: 3px solid #000000;
+        }
+
+        /*Article Area*/
+        .article_img_1 {
+            background-image: url("article_img_1.png");
+            height: 100%;
+        }
+
+        .article_img_2 {
+            background-image: url("article_img_2.png");
+            height: 100%;
+        }
+
+        .article_img_3 {
+            background-image: url("article_img_3.png");
+            height: 100%;
+        }
+
+        /*Button*/
+        .button_area {
+            background-color: #d3d800;
+            color: black;
+            padding: 13px 10px;
+            text-align: center;
+            font-family: arial;
+            font-weight: 700;
+            border: #d3d800;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        table {
+            width: 600px;
+            border-collapse: collapse;
+        }
+        
+        /*Media Query*/
+        
+    </style>
+</head>
+<body>
+    <center>
+        <table class="header_area">
+            <tr class="header_top" style="float: left">
+                <th>Having trouble viewing this email?
+                    <span>View it in your browser</span>
+                </th>
+            </tr>
+            <tr class="header_top_right" style="padding-right: 15px;float: right">
+                <th><span>Follow us</span></th>
+                <th><img src="facebook.png" width="20px"></th>
+                <th><img src="twitter.png" width="20px"></th>
+                <th><img src="google-plus.png" width="20px"></th>
+
+            </tr>
+
+        </table>
+        <table>
+            <tr>
+                <td style="padding: 2%">
+                    <img src="logo.png" style="width: 40%">
+                </td>
+            </tr>
+        </table>
+        <table style="height: 45px">
+            <tr style="background: #e8f6fc;font-family: Oswald Regular">
+                <th>Buy train tickets </th>
+                <th>Trains ticket offers</th>
+                <th>Train timetables</th>
+                <th>Train stations</th>
+            </tr>
+        </table>
+        <table style="height: 336px;background: #aadcf2;">
+            <tr style="background-image: url(hero.png);background-repeat: no-repeat;background-position: right;">
+                <td style="text-align: center;padding-right: 36%;">
+                  <h2 style="font-family: Oswald Regular;line-height: 62px;font-size: 60px;text-align: center; font-weight: lighter;margin: 0px;">GET A YOUR<br><span style="color: white; font-size: 72px;">£5 VOUCHER</span></h2>
+                  <br>
+                  <span style="font-family: Arial;font-size: 1em;">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Morbi ac libero risus.</span>
+                  <br>
+                  <br>
+                  <button class="button_area">Book Now</button>
+                </td>
+            </tr>
+        </table>
+        <table class="benefit_area" style="height: 107px;background: #d9ecf8;font-family: Oswald Regular;font-size: 20px;font-weight: lighter;">
+            <tr>
+                <th><span class="checkmark"></span><span style="padding-left:10px; ">SAVE 50% ON AVERAGE*</span> </th>
+                <th><span class="checkmark"></span><span style="padding-left:10px; ">LOYALITY.SAVE</span></th>
+                <th><span class="checkmark"></span><span style="padding-left:10px; ">ZERO FESS CARD</span></th>
+
+            </tr>
+        </table>
+        <table>
+            <tr style="text-align: center;">
+                <td>
+
+                    <h2 style="font-family: Open Sans; font-weight: 700;">Latest News</h2>
+                    <span style="text-align:center;font-family: Arial;font-size: 12px;">Lorem Ipsum neque porro quisquam est qui dolorem ipsum <br>quia dolor sit amet, consectetur, adipisci velit.</span>
+                    <br><br><br>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tbody>
+                <tr>
+                    <td class="article_img_1"></td>
+                    <td style="padding: 5%;background: #e9f6fc;">
+                        <h2 style="font-family:  Open Sans;margin: 0px;">Article Title</h2>
+                        <span style="font-size:12px;font-weight: 300; font-family: Arial;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac libero risus. Aenean egestas augue et luctus. </span>
+                        <br>
+                        <br>
+                        <button class="button_area">Find Out More</button>
+                    </td>
+                </tr>
+                <tr>
+
+                    <td style="padding: 5%;background: #e9f6fc;">
+                        <h2 style="font-family:  Open Sans;margin: 0px;">Article Title</h2>
+                        <span style="font-size:12px;font-weight: 300; font-family: Arial;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac libero risus. Aenean egestas augue et luctus. </span>
+                        <br>
+                        <br>
+                        <button class="button_area">Find Out More</button>
+                    </td>
+                    <td class="article_img_2"></td>
+                </tr>
+                <tr>
+                    <td class="article_img_3"></td>
+                    <td style="padding: 5%;background: #e9f6fc;">
+                        <h2 style="font-family:  Open Sans;margin: 0px;">Article Title</h2>
+                        <span style="font-size:12px;font-weight: 300; font-family: Arial;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac libero risus. Aenean egestas augue et luctus. </span>
+                        <br>
+                        <br>
+                        <button class="button_area">Find Out More</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <tr style="text-align: center;">
+                <td>
+                    <h2 style="font-family: Open Sans; font-weight: 700;">Early Fares</h2>
+                    <span style="text-align:center;font-family: Arial;font-size: 12px;">On sales for w/c XX/XX(12 weeks forward) book now for the best process.<br>(pricess from on top routes)</span>
+                    <br><br><br>
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tbody class="booknow_london">
+                <tr>
+                    <td style="padding: 3%;background: #dff2fb;">
+                        <h2 style="font-family: Open Sans; font-size: 22px;font-weight: 500;line-height: 23px;">Birmingham <br> to London <br>
+                            <span style="color: #4dbcec;font-size: 16px;">From only £ 6 </span><br>
+                            <span style="color: #e33321;font-size: 14px;">Save up to £12</span>
+                            <button class="button_area" style="float: right;font-family: Arial;font-weight: bold;">Book Now</button>
+                        </h2>
+
+                    </td>
+                    <td style="padding: 3%;background-color: #eef7fe;">
+                        <h2 style="font-family: Open Sans; font-size: 22px;font-weight: 500;line-height: 23px;">Birmingham <br> to London <br>
+                            <span style="color: #4dbcec;font-size: 16px;">From only £ 6 </span><br>
+                            <span style="color: #e33321;font-size: 14px;">Save up to £12</span>
+                            <button class="button_area" style="float: right;font-family: Arial;font-weight: bold;">Book Now</button>
+                        </h2>
+                </tr>
+                <tr>
+                    <td style="padding: 3%;background-color: #eef7fe;">
+                        <h2 style="font-family: Open Sans; font-size: 22px;font-weight: 500;line-height: 23px;">Birmingham <br> to London <br>
+                            <span style="color: #4dbcec;font-size: 16px;">From only £ 6 </span><br>
+                            <span style="color: #e33321;font-size: 14px;">Save up to £12</span>
+                            <button class="button_area" style="float: right;font-family: Arial;font-weight: bold;">Book Now</button>
+                        </h2>
+
+                    </td>
+                    <td style="padding: 3%;background-color: #e1f2fa;">
+                        <h2 style="font-family: Open Sans; font-size: 22px;font-weight: 500;line-height: 23px;">Birmingham <br> to London <br>
+                            <span style="color: #4dbcec;font-size: 16px;">From only £ 6 </span><br>
+                            <span style="color: #e33321;font-size: 14px;">Save up to £12</span>
+                            <button class="button_area" style="float: right;font-family: Arial;font-weight: bold;">Book Now</button>
+                        </h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 3%;background-color: #e1f2fa;">
+                        <h2 style="font-family: Open Sans; font-size: 22px;font-weight: 500;line-height: 23px;">Birmingham <br> to London <br>
+                            <span style="color: #4dbcec;font-size: 16px;">From only £ 6 </span><br>
+                            <span style="color: #e33321;font-size: 14px;">Save up to £12</span>
+                            <button class="button_area" style="float: right;font-family: Arial;font-weight: bold;">Book Now</button>
+                        </h2>
+
+                    </td>
+                    <td style="padding: 3%;background-color: #eef7fe;">
+                        <h2 style="font-family: Open Sans; font-size: 22px;font-weight: 500;line-height: 23px;">Birmingham <br> to London <br>
+                            <span style="color: #4dbcec;font-size: 16px;">From only £ 6 </span><br>
+                            <span style="color: #e33321;font-size: 14px;">Save up to £12</span>
+                            <button class="button_area" style="float: right;font-family: Arial;font-weight: bold;">Book Now</button>
+                        </h2>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <tr style="text-align: center;">
+                <td>
+        <br>
+        <button class="button_area">Plan Your Journey</button>
+        <br>
+        <br>
+        </td>
+            </tr>
+        </table>
+
+
+
+        <table>
+            <tbody>
+                <tr style="background: #b0e1ff;">
+                    <td rowspan="2">
+                        <img src="Footer_img.png" style="text-align: center;padding: 5% 0 0 3%;">
+                    </td>
+                    <td>
+                        <span style="line-height: 50px;font-size: 50px;color: white;font-family:Oswald Regular;font-weight: lighter;">
+                            TRAIN TRAVEL ALL <br> WRAPPED UP
+                        </span>
+                    </td>
+
+                </tr>
+
+            </tbody>
+        </table>
+
+        <table>
+            <tbody>
+
+                <tr>
+                    <td style="font-family: Open Sans;font-weight: 500; padding: 4%;background: #c6e8f6">
+                        <center><span>Follow us</span><br>
+                            <span>
+                                <img src="facebook.png" width="30px" style="padding: 0px 4px">
+                                <img src="twitter.png" width="30px" style="padding: 0px 4px">
+                                <img src="google-plus.png" width="30px" style="padding: 0px 4px">
+
+                            </span>
+                        </center><br>
+                        <span style="font-family: Arial; font-size: 12px;">
+                            redspottedhanky.com is a trade mark of Worldline IT Services UK Limited. Worldline IT Services UK Limited is a company incorporated under the laws of England and Wales with registered number 8514184. Registered office: 4 Triton Square, Regent’s Place, London NW1 3HG.
+                            <br><br> * The redspottedhanky.com 50% average savings is based on Advance Fares vs. purchase on the day. Includes Booking fee. Advance fares not available on every route. Excludes promotional fares. Journeys made April – July 2016.
+                            <br><br> ** The Trainline 43% average savings is quoted on trainline.com as of 4th May 2016, more information is available on their website: https://ehelp.thetrainline.com/app/answers/popup_detail/a_id/3105/rdr/10
+                        </span>
+                        <br><br>
+                        <center>
+                            <span style="text-align: center;"><a href="#" style="color: #508898;text-align: center;">Unsubscribe</a></span>
+                        </center>
+
+                    </td>
+
+                </tr>
+
+
+            </tbody>
+        </table>
+
+    </center>
+</body>
+
+</html>
